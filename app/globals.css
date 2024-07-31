@@ -29,6 +29,10 @@ body {
   color: rgb(var(--primary));
 }
 
+input:focus + label, input:not(:placeholder-shown) + label{
+  transform: translateY(-27px);
+}
+
 @layer base {
   .font-outline-2 {
     -webkit-text-stroke: 2px rgb(var(--dark));
