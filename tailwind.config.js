@@ -22,6 +22,7 @@ module.exports = {
         'md-h': { 'raw': '(min-height: 480px)' },
         'lg-h': { 'raw': '(min-height: 768px)' },
         'xl-h': { 'raw': '(min-height: 850px)' },
+        'mobile': { 'raw': '(max-width: 1190px)' },
       }
     }
   },
