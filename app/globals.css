@@ -8,10 +8,20 @@
   --light: 252, 252, 252;
 }
 
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: rgb(var(--dark));
   background-color: rgb(var(--light));
   font-size: 1rem;
+  overflow-x: hidden;
 }
 
 .desktop-nav-link{
@@ -26,6 +36,21 @@ body {
 }
 
 .desktop-nav-link.active{
+  color: rgb(var(--primary));
+}
+
+.mobile-nav-link{
+  color: rgb(var(--light));
+  font-weight: 500;
+  transition: .1s ease-in-out;
+  margin: 25px 0;
+}
+
+.mobile-nav-link:hover{
+  color: rgb(var(--primary));
+}
+
+.mobile-nav-link.active{
   color: rgb(var(--primary));
 }
 

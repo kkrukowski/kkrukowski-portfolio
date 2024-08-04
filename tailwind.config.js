@@ -23,6 +23,7 @@ module.exports = {
         'lg-h': { 'raw': '(min-height: 768px)' },
         'xl-h': { 'raw': '(min-height: 850px)' },
         'mobile': { 'raw': '(max-width: 1190px)' },
+        'desktop': { 'raw': '(min-width: 950px)' },
       }
     }
   },

@@ -1,3 +1,5 @@
+'use client'
+
 import Subheading from "@/components/Subheading";
 import MainSubpageVideo from "@/components/MainSubpageVideo";
 import TextBox from "@/components/TextBox";
@@ -7,8 +9,12 @@ import PortfolioItem from "@/components/Portfolio/PortfolioItem";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
 import ContactForm from "@/components/Form/ContactForm";
+import useNavStore from "@/app/store";
 
 export default function Kontakt() {
+    const updateMenuIndex = useNavStore((state) => state.updateMenuIndex);
+    updateMenuIndex(3)
+
     return (
         <main className="flex xl:w-[1250px] max-w-[1250px] min-h-screen flex-col items-center p-24">
             <MainSubpageVideo subpageTitle="Kontakt"/>

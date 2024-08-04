@@ -1,11 +1,16 @@
-import Subheading from "@/components/Subheading";
+'use client'
+
 import MainSubpageVideo from "@/components/MainSubpageVideo";
 import TextBox from "@/components/TextBox";
 import Heading from "@/components/Heading";
 import Image from "next/image";
 import PortfolioItem from "@/components/Portfolio/PortfolioItem";
+import useNavStore from "@/app/store";
 
 export default function Portfolio() {
+    const updateMenuIndex = useNavStore((state) => state.updateMenuIndex);
+    updateMenuIndex(1)
+
   return (
       <main className="flex xl:w-[1250px] max-w-[1250px] min-h-screen flex-col items-center p-24">
           <MainSubpageVideo subpageTitle="Portfolio"/>
