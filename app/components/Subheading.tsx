@@ -1,7 +1,7 @@
-export default function Subheading({ text, className}) {
+export default function Subheading({ text }) {
     return (
         <div>
-            <h2 className={`text-2xl font-medium ${className}`}>{text}</h2>
+            <h2 className={`text-2xl font-medium`}>{text}</h2>
         </div>
     )
 }
