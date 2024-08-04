@@ -9,7 +9,7 @@ const ContactSection = () => {
     return (
         <section className={`relative mb-[100px]`}>
             <div className={`relative mb-[50px]`}>
-                <Heading text={"Skontaktuj się ze mną"}/>
+                <Heading text={"Zacznijmy projekt razem!"}/>
                 {/*<Image src={"/images/underlines/long.svg"} width={181} height={8} alt={"Underline"}*/}
                 {/*       className={`absolute translate-x-[215px]`}/>*/}
             </div>
@@ -17,7 +17,7 @@ const ContactSection = () => {
                 <p className={`text-center w-[500px]`}>Jeżeli chcesz uzyskać szybką wycenę lub dowiedzieć się więcej, to zachęcam do
                     kontaktu przez poniższy formularz 👇</p>
             </div>
-            <div className={`relative flex flex-col-reverse desktop:flex-row justify-center items-center`}>
+            <div className={`relative flex flex-col-reverse desktop:flex-row justify-center items-center desktop:items-start`}>
                 <div className={`flex flex-col items-center desktop:items-start mt-[50px] desktop:mt-0 desktop:mr-[50px]`}>
                     <Subheading text="Kontakt do mnie"/>
                     <p className={`font-bold my-4`}>Kamil Krukowski</p>

@@ -55,7 +55,7 @@ export default function Home() {
         {/* About me section */}
         <section className={`mb-[100px]`}>
             <div className={`mb-[50px]`}>
-                <Heading text={"Krótko o mnie"}/>
+                <Heading text={"Poznaj mnie"}/>
             </div>
             <div className={`flex flex-col items-center desktop:flex-row`}>
                 <TextBox text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu
@@ -64,8 +64,11 @@ export default function Home() {
                             In vel augue aliquet, mollis elit sed, iaculis tellus. Vestibulum ultrices non ipsum nec
                             iaculis. Suspendisse venenatis sapien nec auctor ultrices. Sed condimentum felis faucibus sapien
                             facilisis tincidunt."/>
-                <Image src={"/images/kkrukowski-fpv.png"} alt={"Kamil Krukowski"} width={300} height={300}
-                       className={`bg-primary rounded-2xl mt-[50px] desktop:mt-0 desktop:ml-[50px] shadow-lg`}/>
+                <div
+                    className={`relative w-full max-w-[400px] h-[250px] lg:w-[300px] lg:h-[300px] desktop:mt-0 desktop:ml-[50px] flex-shrink-0`}>
+                    <Image src={"/images/kkrukowski-fpv.png"} alt={"Kamil Krukowski"} layout="fill"
+                           className={`relative object-cover object-top w-full h-full rounded-2xl mt-[50px] shadow-lg`}/>
+                </div>
             </div>
         </section>
 
@@ -109,7 +112,7 @@ export default function Home() {
         {/* Trust me section */}
         <section className={`mb-[100px]`}>
             <div className={`relative mb-[50px]`}>
-                <Heading text={"Dlaczego możesz mi zaufać?"}/>
+                <Heading text={"Jak o Ciebie zadbam?"}/>
                 {/*<Image src={"/images/underlines/medium.svg"} width={128} height={10} alt={"Underline"}*/}
                 {/*       className={`absolute translate-x-[400px]`}/>*/}
             </div>
@@ -123,7 +126,7 @@ export default function Home() {
                     <div className={`w-fit xl:ml-[50px]`}>
                         <IconListItem text="Do każdego zlecenia podchodzę indywidualnie." icon={faPerson}/>
                         <IconListItem text="Dbam o jak najwyższą jakość produkcji." icon={faStar}/>
-                        <IconListItem text="Szanuję komunikację oraz Twój czas." icon={faClock}/>
+                        <IconListItem text="Szanuję Twój czas oraz komunikację." icon={faClock}/>
                     </div>
                 </div>
             </div>
