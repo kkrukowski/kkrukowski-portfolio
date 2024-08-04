@@ -10,7 +10,7 @@ export default function Footer() {
                        className={`relative object-contain w-full h-full`}/>
             </div>
             <div className={`w-[100px] h-0.5 sm:w-0.5 sm:h-[100px] rounded-full my-8 sm:mx-8 bg-light`}></div>
-            <div className={`h-full`}>
+            <div className={`h-full text-center sm:text-left`}>
                 <p className={`font-bold text-light text-xl`}>Kamil Krukowski</p>
                 <p className={`text-light`}><a href={`tel:+48881046689`}>881 046 689</a></p>
                 <p className={`text-light`}><a

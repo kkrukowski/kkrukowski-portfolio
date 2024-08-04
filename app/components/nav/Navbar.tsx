@@ -34,7 +34,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={"z-50 fixed w-full flex justify-center px-4 sm:px-12 desktop:px-24 mobile:justify-end items-center h-[80px] border-b-[2px] border-dark bg-light shadow-lg"}>
+            <nav className={"z-50 fixed w-full flex justify-center px-4 sm:px-12 desktop:px-24 mobile:justify-end items-center h-[60px] sm:h-[80px] border-b-[2px] border-dark bg-light shadow-lg"}>
                 {/* Desktop Menu */}
                 <div className={"mobile:hidden flex justify-between w-[1250px] px-24"}>
                     {/* Logo */}
