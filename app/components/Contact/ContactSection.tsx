@@ -30,7 +30,7 @@ const ContactSection = () => {
                         <p><a href={`mailto:kamil.krukowski00@gmail.com`}>kamil.krukowski00@gmail.com</a></p>
                     </div>
                 </div>
-                <div className={`w-full desktop:ml-[50px]`}>
+                <div className={`w-full lg:w-auto desktop:ml-[50px]`}>
                     <ContactForm/>
                 </div>
             </div>
