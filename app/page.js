@@ -42,7 +42,7 @@ export default function Home() {
                         <Image src="/images/profile-nobg.png" alt="Kamil Krukowski" layout="fill"
                                className={`relative object-contain w-full h-full`}/>
                         <div
-                            className={`absolute w-[250px] h-[250px] left-1/2 -translate-x-[90px] bottom-0 sm:translate-x-[70px] sm:top-[350px] rotate-12 -z-50 opacity-50`}>
+                            className={`absolute w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] left-1/2 -translate-x-[50px] bottom-0 sm:translate-x-[70px] sm:top-[350px] rotate-12 -z-50 opacity-50`}>
                             <Image src={"/images/logo-dark.png"} alt={"Logo"} layout="fill"
                                    className={`relative object-contain w-full h-full`}/>
                         </div>

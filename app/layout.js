@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pl">
-      <body className={`${roboto_slab.className} w-full flex flex-col items-center overflow-x-hidden`}>
+      <body className={`${roboto_slab.className} flex flex-col items-center w-screen overflow-x-hidden`}>
         <Navbar />
         {children}
         <Footer />
