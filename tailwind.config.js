@@ -12,6 +12,7 @@ module.exports = {
       "primary-light": "#fdc05d",
       dark: "#14213D",
       light: "#FCFCFC",
+      red: "#c25451",
     },
     fontFamily: {
       sans: ['Roboto Slab', 'sans-serif'],
