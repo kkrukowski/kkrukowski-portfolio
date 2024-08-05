@@ -12,7 +12,7 @@ export default function Uslugi() {
     updateMenuIndex(2)
 
     return (
-        <main className="flex xl:w-[1250px] max-w-[1250px] min-h-screen flex-col items-center p-24">
+        <main className="w-screen max-w-[1250px] min-h-screen px-4 sm:px-12 desktop:px-24 pt-[90px] sm:pt-[110px]">
             <MainSubpageVideo subpageTitle="Usługi"/>
             <div className={`mb-[50px]`}>
                 <TextBox width="full"
@@ -20,8 +20,8 @@ export default function Uslugi() {
             </div>
             <div className={`relative mb-[50px]`}>
                 <Heading text={"Moje wcześniejsze realizacje"}/>
-                <Image src={"/images/underlines/long.svg"} width={150} height={8} alt={"Underline"}
-                       className={`absolute translate-x-[275px]`}/>
+                {/*<Image src={"/images/underlines/long.svg"} width={150} height={8} alt={"Underline"}*/}
+                {/*       className={`absolute translate-x-[275px]`}/>*/}
             </div>
             <section className={`mb-[100px] relative`}>
                 <div>

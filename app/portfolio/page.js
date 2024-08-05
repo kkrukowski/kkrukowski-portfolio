@@ -12,7 +12,7 @@ export default function Portfolio() {
     updateMenuIndex(1)
 
   return (
-      <main className="flex xl:w-[1250px] max-w-[1250px] min-h-screen flex-col items-center p-24">
+      <main className="w-screen max-w-[1250px] min-h-screen px-4 sm:px-12 desktop:px-24 pt-[90px] sm:pt-[110px]">
           <MainSubpageVideo subpageTitle="Portfolio"/>
           <div className={`mb-[50px]`}>
               <TextBox width="full"
@@ -20,27 +20,27 @@ export default function Portfolio() {
           </div>
           <div className={`relative mb-[50px]`}>
               <Heading text={"Moje wcześniejsze realizacje"}/>
-              <Image src={"/images/underlines/long.svg"} width={150} height={8} alt={"Underline"}
-                     className={`absolute translate-x-[275px]`}/>
+              {/*<Image src={"/images/underlines/long.svg"} width={150} height={8} alt={"Underline"}*/}
+              {/*       className={`absolute translate-x-[275px]`}/>*/}
           </div>
           <div className={`flex flex-col relative w-full`}>
-              <div className={`flex justify-between w-[950px] mb-[50px]`}>
+              <div className={`flex flex-col md:flex-row w-full md:mb-[50px]`}>
                   <PortfolioItem
                       desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
-                  <PortfolioItem
-                      desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
+                  <PortfolioItem marginLeft="true"
+                                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
               </div>
-              <div className={`relative flex justify-between w-[950px] self-end mb-[50px]`}>
+              <div className={`flex relative w-full flex-col md:flex-row md:justify-end md:mb-[50px]`}>
                   <PortfolioItem
                       desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
-                  <PortfolioItem
-                      desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
+                  <PortfolioItem marginLeft="true"
+                                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
               </div>
-              <div className={`flex justify-between w-[950px] mb-[50px]`}>
+              <div className={`flex flex-col md:flex-row w-full md:mb-[50px]`}>
                   <PortfolioItem
                       desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
-                  <PortfolioItem
-                      desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
+                  <PortfolioItem marginLeft="true"
+                                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc."/>
               </div>
           </div>
       </main>
