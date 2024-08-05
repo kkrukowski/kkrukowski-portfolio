@@ -37,7 +37,7 @@ export default function Home() {
 
             </div>
             <div className={`relative z-40 mt-auto w-screen`}>
-                <div className={`relative bottom-0 w-full h-[400px] sm:h-[450px] mt-28 sm:md-h:h-[550px] sm:lg-h:h-[600px] lg-h:mt-48`}>
+                <div className={`relative bottom-0 w-full h-[365px] sm:h-[450px] mt-28 sm:md-h:h-[550px] sm:lg-h:h-[600px] lg-h:mt-48`}>
                     <div className={`w-fit`}>
                         <Image src="/images/profile-nobg.png" alt="Kamil Krukowski" layout="fill"
                                className={`relative object-contain w-full h-full`}/>
