@@ -21,9 +21,8 @@ export default function Home() {
             className={`relative flex flex-col items-center min-h-[600px] h-screen lg-h:-h:pt-[150px] mb-24 sm:sm-h:mb-48 sm:md-h:mb-[280px] sm:lg-h:mb-[220px] sm:xl-h:mb-[100px] pt-[90px] sm:pt-[110px]`}>
             <Subheading text={"👋, jestem Kamil i jestem pilotem dronów."}/>
             <div className={`absolute z-40 top-[30%] sm:top-1/3 w-screen flex flex-col items-center`}>
-                <h1 className={`text-center`}>
-                    <p className={`text-dark font-bold text-[65px] sm:text-[90px] md:text-[110px] lg:text-[150px] xl:text-[190px] 2xl:text-[220px] font-outline-2 sm:leading-[10rem]`}>Pilot
-                        drona</p>
+                    <h1 className={`text-dark font-bold text-[65px] sm:text-[90px] md:text-[110px] lg:text-[150px] xl:text-[190px] 2xl:text-[220px] font-outline-2 sm:leading-[10rem]`}>Pilot
+                        drona</h1>
                     <div className={`relative`}>
                         <p className={`text-light font-bold text-[53px] sm:text-[90px] md:text-[110px] lg:text-[150px] xl:text-[190px] 2xl:text-[220px] font-outline-2`}>
                             & Montażysta
@@ -36,8 +35,6 @@ export default function Home() {
                                    className={`relative object-contain w-full h-full`}/>
                         </div>
                     </div>
-                </h1>
-
             </div>
             <div className={`relative z-40 mt-auto w-screen`}>
                 <div
