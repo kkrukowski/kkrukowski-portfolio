@@ -87,7 +87,7 @@ export default function Home() {
                 {/*       className={`absolute translate-x-[495px]`}/>*/}
             </div>
             <div>
-                <OfferItem text="Profesjonalne filmowanie dronem, które uchwyci wyjątkowe ujęcia Twojego wydarzenia, nieruchomości lub projektu. Gwarantuję najwyższą jakość obrazu oraz pełne bezpieczeństwo podczas każdego lotu. Dzięki moim usługom dronem, Twoje filmy reklamowe będą wyróżniały się na tle konkurencji."
+                <OfferItem text="Profesjonalne filmowanie dronem, które uchwyci wyjątkowe ujęcia Twojego wydarzenia, nieruchomości lub projektu. Gwarantuję najwyższą jakość obrazu i pełne bezpieczeństwo lotu. Dzięki moim usługom dronem, Twoje filmy reklamowe wyróżnią się na tle konkurencji."
                            title="Filmowanie z powietrza"
                            href={"/"}
                            linkText="Zobacz więcej"
@@ -95,7 +95,7 @@ export default function Home() {
                            alt="Offer video example"
                            reverse={false}
                 />
-                <OfferItem text="Dynamiczne nagrania z wykorzystaniem technologii FPV (First-Person View), idealne do tworzenia immersyjnych filmów promocyjnych i sportowych. Dzięki nowatorskim ujęciom i dronom wyścigowym, Twoje wideo zyskają na atrakcyjności i unikalności. Krótkie filmy reklamowe stworzone za pomocą technologii FPV przyciągną uwagę i zapadną w pamięć Twoim odbiorcom."
+                <OfferItem text="Dynamiczne nagrania FPV (First-Person View) idealne do immersyjnych filmów promocyjnych i sportowych. Dzięki nowatorskim ujęciom i dronom wyścigowym, Twoje wideo zyskają unikalność i atrakcyjność. Filmy FPV przyciągną uwagę i zapadną w pamięć."
                            title="Filmowanie FPV"
                            href={"/"}
                            linkText="Zobacz więcej"
@@ -103,9 +103,9 @@ export default function Home() {
                            alt="Offer video example"
                            reverse={true}
                 />
-                <OfferItem text="Tworzę angażujące filmy reklamowe, które pomogą wyróżnić Twoją markę. Dbam o każdy detal, aby finalny produkt był spójny z Twoją wizją i celami marketingowymi. Profesjonalna produkcja filmów reklamowych zapewnia, że każdy projekt zostanie zrealizowany zgodnie z najwyższymi standardami."
+                <OfferItem text="Tworzę angażujące filmy reklamowe, które wyróżnią Twoją markę. Dbam o każdy detal, aby finalny produkt był spójny z Twoją wizją i celami marketingowymi."
                            title="Montaż filmów promocyjnych"
-                           href={"/"}
+                           href={"/uslugi"}
                            linkText="Zobacz więcej"
                            src="/images/placeholer-video.webp"
                            alt="Offer video example"
