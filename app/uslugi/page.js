@@ -25,27 +25,27 @@ export default function Uslugi() {
             </div>
             <section className={`mb-[100px] relative`}>
                 <div>
-                    <OfferItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu
-                        bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam
-                        elementum quam sem, quis lacinia odio bibendum eget. In venenatis arcu a nibh laoreet tincidunt."
-                               src="/images/placeholer-video.webp"
-                               alt="Offer video example"
-                               reverse={false}
-                    />
-                    <OfferItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu
-                        bibendum magtna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam
-                        elementum quam sem, quis lacinia odio bibendum eget. In venenatis arcu a nibh laoreet tincidunt."
-                               src="/images/placeholer-video.webp"
-                               alt="Offer video example"
-                               reverse={true}
-                    />
-                    <OfferItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu
-                        bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam
-                        elementum quam sem, quis lacinia odio bibendum eget. In venenatis arcu a nibh laoreet tincidunt."
-                               src="/images/placeholer-video.webp"
-                               alt="Offer video example"
-                               reverse={false}
-                    />
+                    {/*<OfferItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu*/}
+                    {/*    bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam*/}
+                    {/*    elementum quam sem, quis lacinia odio bibendum eget. In venenatis arcu a nibh laoreet tincidunt."*/}
+                    {/*           src="/images/placeholer-video.webp"*/}
+                    {/*           alt="Offer video example"*/}
+                    {/*           reverse={false}*/}
+                    {/*/>*/}
+                    {/*<OfferItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu*/}
+                    {/*    bibendum magtna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam*/}
+                    {/*    elementum quam sem, quis lacinia odio bibendum eget. In venenatis arcu a nibh laoreet tincidunt."*/}
+                    {/*           src="/images/placeholer-video.webp"*/}
+                    {/*           alt="Offer video example"*/}
+                    {/*           reverse={true}*/}
+                    {/*/>*/}
+                    {/*<OfferItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu*/}
+                    {/*    bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam*/}
+                    {/*    elementum quam sem, quis lacinia odio bibendum eget. In venenatis arcu a nibh laoreet tincidunt."*/}
+                    {/*           src="/images/placeholer-video.webp"*/}
+                    {/*           alt="Offer video example"*/}
+                    {/*           reverse={false}*/}
+                    {/*/>*/}
                 </div>
                 <div
                     className={`absolute w-[250px] h-[250px] top-1/2 left-[800px] rotate-12 -z-50 opacity-50`}>
