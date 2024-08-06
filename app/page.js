@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className={`flex flex-col items-center desktop:items-start desktop:flex-row`}>
                 <TextBox
-                    text="Cześć! 👋 Nazywam się Kamil Krukowski, jestem pasjonatem technologii dronowej i profesjonalnym montażystą filmów promocyjnych. Posiadam licencje NSTS-01/06 oraz doświadczenie w tworzeniu dynamicznych i angażujących materiałów wideo. Specjalizuję się w lataniu dronami FPV, co pozwala mi na uchwycenie spektakularnych, immersyjnych ujęć. Każdy projekt realizuję z pełnym zaangażowaniem, dbając o najwyższą jakość. Moim celem jest nie tylko dostarczenie wyjątkowego produktu, ale także zapewnienie Ci bezpiecznej i bezproblemowej współpracy."/>
+                    text="Cześć! 👋 Nazywam się Kamil Krukowski i jestem pasjonatem technologii dronowej oraz profesjonalnym montażystą filmów promocyjnych. Specjalizuję się w filmowaniu dronem, w tym w zaawansowanych technologiach FPV (First-Person View), które pozwalają mi na uchwycenie spektakularnych i immersyjnych ujęć. Dzięki licencjom NSTS-01/06 i doświadczeniu w produkcji filmów reklamowych, zapewniam dynamiczne i angażujące materiały wideo. Każdy projekt realizuję z pełnym zaangażowaniem, dbając o najwyższą jakość i indywidualne podejście do Twoich potrzeb. Moim celem jest nie tylko dostarczenie wyjątkowego produktu, ale także zapewnienie Ci bezpiecznej i bezproblemowej współpracy."/>
                 <div
                     className={`relative w-full max-w-[400px] h-[250px] desktop:w-[300px] desktop:h-[300px] desktop:mt-0 desktop:ml-[50px] flex-shrink-0`}>
                     <Image src={"/images/kkrukowski-fpv.webp"}
@@ -87,9 +87,7 @@ export default function Home() {
                 {/*       className={`absolute translate-x-[495px]`}/>*/}
             </div>
             <div>
-                <OfferItem text="Profesjonalne nagrania z powietrza, które uchwycą wyjątkowe ujęcia Twojego wydarzenia,
-                                 nieruchomości lub projektu. Gwarantuję najwyższą jakość obrazu oraz pełne bezpieczeństwo
-                                 podczas każdego lotu."
+                <OfferItem text="Profesjonalne filmowanie dronem, które uchwyci wyjątkowe ujęcia Twojego wydarzenia, nieruchomości lub projektu. Gwarantuję najwyższą jakość obrazu oraz pełne bezpieczeństwo podczas każdego lotu. Dzięki moim usługom dronem, Twoje filmy reklamowe będą wyróżniały się na tle konkurencji."
                            title="Filmowanie z powietrza"
                            href={"/"}
                            linkText="Zobacz więcej"
@@ -97,9 +95,7 @@ export default function Home() {
                            alt="Offer video example"
                            reverse={false}
                 />
-                <OfferItem text="Dynamiczne nagrania z wykorzystaniem technologii FPV (First-Person View), idealne do
-                tworzenia immersyjnych filmów promocyjnych i sportowych. Dzięki nowatorskim ujęciom, Twoje wideo zyskają
-                na atrakcyjności i unikalności."
+                <OfferItem text="Dynamiczne nagrania z wykorzystaniem technologii FPV (First-Person View), idealne do tworzenia immersyjnych filmów promocyjnych i sportowych. Dzięki nowatorskim ujęciom i dronom wyścigowym, Twoje wideo zyskają na atrakcyjności i unikalności. Krótkie filmy reklamowe stworzone za pomocą technologii FPV przyciągną uwagę i zapadną w pamięć Twoim odbiorcom."
                            title="Filmowanie FPV"
                            href={"/"}
                            linkText="Zobacz więcej"
@@ -107,7 +103,7 @@ export default function Home() {
                            alt="Offer video example"
                            reverse={true}
                 />
-                <OfferItem text="Tworzę dynamiczne i angażujące filmy promocyjne, które pomogą wyróżnić Twoją markę. Dbam o każdy detal, aby finalny produkt był spójny z Twoją wizją i celami marketingowymi."
+                <OfferItem text="Tworzę angażujące filmy reklamowe, które pomogą wyróżnić Twoją markę. Dbam o każdy detal, aby finalny produkt był spójny z Twoją wizją i celami marketingowymi. Profesjonalna produkcja filmów reklamowych zapewnia, że każdy projekt zostanie zrealizowany zgodnie z najwyższymi standardami."
                            title="Montaż filmów promocyjnych"
                            href={"/"}
                            linkText="Zobacz więcej"

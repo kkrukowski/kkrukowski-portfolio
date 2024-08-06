@@ -14,8 +14,7 @@ const ContactSection = () => {
                 {/*       className={`absolute translate-x-[215px]`}/>*/}
             </div>
             <div className={`flex justify-center mb-[50px]`}>
-                <p className={`text-center w-[500px]`}>Jeżeli chcesz uzyskać szybką wycenę lub dowiedzieć się więcej, to zachęcam do
-                    kontaktu przez poniższy formularz 👇</p>
+                <p className={`text-center w-[500px]`}>Jeżeli chcesz uzyskać szybką wycenę lub dowiedzieć się więcej o moich usługach dronem, zachęcam do kontaktu przez poniższy formularz 👇</p>
             </div>
             <div className={`relative flex flex-col-reverse desktop:flex-row justify-center items-center desktop:items-start`}>
                 <div className={`flex flex-col items-center desktop:items-start mt-[50px] desktop:mt-0 desktop:mr-[50px]`}>

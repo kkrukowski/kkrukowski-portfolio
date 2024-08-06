@@ -6,8 +6,10 @@ import Footer from "@/components/Footer";
 const roboto_slab = Roboto_Slab({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kamil Krukowski - Filmowanie z powietrza i dynamiczne ujęcia FPV",
-  description: "Kamil Krukowski - profesjonalny montażysta filmów promocyjnych i pasjonat technologii dronowej. Specjalizuję się w lataniu dronami FPV, oferując dynamiczne i angażujące materiały wideo. Z licencją NSTS-01/06 gwarantuję najwyższą jakość i indywidualne podejście do każdego projektu. Bezpieczna i bezproblemowa współpraca.",
+  title: "Kamil Krukowski - Profesjonalne Filmowanie z Drona | FPV i Produkcja Filmów Reklamowych",
+  description: "Oferuję profesjonalne usługi filmowania z drona, w tym dynamiczne nagrania FPV oraz produkcję filmów" +
+      " reklamowych. Zapewniam najwyższą jakość wideo, innowacyjne ujęcia oraz pełne bezpieczeństwo i indywidualne" +
+      " podejście do każdego projektu.",
 };
 
 export default function RootLayout({ children }) {
