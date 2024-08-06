@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 const roboto_slab = Roboto_Slab({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kamil Krukowski - Profesjonalne Filmowanie z Drona FPV i Produkcja Filmów Reklamowych",
-  description: "Oferuję profesjonalne filmowanie z drona, w tym dynamiczne nagrania FPV i produkcję filmów reklamowych. Gwarantuję wysoką jakość wideo, innowacyjne ujęcia oraz pełne bezpieczeństwo i indywidualne podejście.",
+  title: "Kamil Krukowski - Filmowanie z Drona FPV i Filmy Reklamowych",
+  description: "Profesjonalne filmowanie z drona FPV i produkcja filmów reklamowych. Gwarantuję wysoką jakość wideo oraz pełne bezpieczeństwo i indywidualne podejście.",
 };
 
 export default function RootLayout({ children }) {
