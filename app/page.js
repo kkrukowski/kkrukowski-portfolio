@@ -19,7 +19,7 @@ export default function Home() {
         {/* Hero section */}
         <section
             className={`relative flex flex-col items-center min-h-[600px] h-screen lg-h:-h:pt-[150px] mb-24 sm:sm-h:mb-48 sm:md-h:mb-[280px] sm:lg-h:mb-[220px] sm:xl-h:mb-[100px] pt-[90px] sm:pt-[110px]`}>
-            <Subheading text={"👋, jestem Kamil i jestem pilotem dronów."}/>
+            <Heading text={"👋, jestem Kamil i jestem pilotem dronów."}/>
             <div className={`absolute z-40 top-[30%] sm:top-1/3 w-screen flex flex-col items-center`}>
                 <p className={`text-dark font-bold text-[65px] sm:text-[90px] md:text-[110px] lg:text-[150px] xl:text-[190px] 2xl:text-[220px] font-outline-2 sm:leading-[10rem]`}>Pilot
                     drona</p>
@@ -64,7 +64,7 @@ export default function Home() {
         {/* About me section */}
         <section className={`mb-[100px]`}>
             <div className={`mb-[50px]`}>
-                <Heading text={"Poznaj mnie"}/>
+                <Subheading text={"Poznaj mnie"}/>
             </div>
             <div className={`flex flex-col items-center desktop:items-start desktop:flex-row`}>
                 <TextBox
@@ -82,7 +82,7 @@ export default function Home() {
         {/* Offer section */}
         <section className={`mb-[100px] relative`}>
             <div className={`relative mb-[50px]`}>
-                <Heading text={"Co mogę Ci zapewnić?"}/>
+                <Subheading text={"Co mogę Ci zapewnić?"}/>
                 {/*<Image src={"/images/underlines/short.svg"} width={30} height={3} alt={"Underline"}*/}
                 {/*       className={`absolute translate-x-[495px]`}/>*/}
             </div>
@@ -122,7 +122,7 @@ export default function Home() {
         {/* Trust me section */}
         <section className={`mb-[100px]`}>
             <div className={`relative mb-[50px]`}>
-                <Heading text={"Jak o Ciebie zadbam?"}/>
+                <Subheading text={"Jak o Ciebie zadbam?"}/>
                 {/*<Image src={"/images/underlines/medium.svg"} width={128} height={10} alt={"Underline"}*/}
                 {/*       className={`absolute translate-x-[400px]`}/>*/}
             </div>

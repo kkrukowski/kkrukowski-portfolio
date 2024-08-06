@@ -9,7 +9,7 @@ const ContactSection = () => {
     return (
         <section className={`relative mb-[100px]`}>
             <div className={`relative mb-[50px]`}>
-                <Heading text={"Zacznijmy projekt razem!"}/>
+                <Subheading text={"Zacznijmy projekt razem!"}/>
                 {/*<Image src={"/images/underlines/long.svg"} width={181} height={8} alt={"Underline"}*/}
                 {/*       className={`absolute translate-x-[215px]`}/>*/}
             </div>
