@@ -13,10 +13,10 @@ export default function Portfolio() {
 
   return (
       <main className="w-screen max-w-[1250px] min-h-screen px-4 sm:px-12 desktop:px-24 pt-[90px] sm:pt-[110px]">
-          <MainSubpageVideo subpageTitle="Portfolio"/>
+          <MainSubpageVideo videoUrl={"/videos/dji-offer-video.webm"} subpageTitle="Portfolio"/>
           <div className={`mb-[50px]`}>
               <TextBox width="full"
-                       text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam elementum quam sem, quis lacinia odio bibendum eget. "/>
+                       text="Zapraszam do zapoznania się z moim portfolio, które prezentuje profesjonalne filmowanie z drona FPV oraz produkcję filmów reklamowych. Obejrzyj przykłady dynamicznych nagrań i innowacyjnych ujęć, które wyróżniają moją pracę na tle konkurencji."/>
           </div>
           <div className={`relative mb-[50px]`}>
               <Heading text={"Moje wcześniejsze realizacje"}/>

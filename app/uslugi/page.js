@@ -16,7 +16,7 @@ export default function Uslugi() {
             <MainSubpageVideo subpageTitle="Usługi"/>
             <div className={`mb-[50px]`}>
                 <TextBox width="full"
-                         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam elementum quam sem, quis lacinia odio bibendum eget. "/>
+                         text="Oferuję szeroki zakres usług związanych z profesjonalnym filmowaniem z drona, w tym dynamiczne nagrania FPV i produkcję filmów reklamowych. Zapewniam najwyższą jakość wideo, innowacyjne ujęcia oraz indywidualne podejście do każdego projektu, aby sprostać Twoim potrzebom."/>
             </div>
             <div className={`relative mb-[50px]`}>
                 <Heading text={"Moje wcześniejsze realizacje"}/>
