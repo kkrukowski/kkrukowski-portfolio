@@ -1,13 +1,17 @@
-const Video = ({width, height, src}) => {
+const Video = ({width, height, src, className}) => {
     return (
-        <video width={width}
-               height={height}
-               controls
-               preload="none">
-            <source src={src}
-                    type="video/mp4"/>
-            Your browser does not support the video tag.
-        </video>
+        <div className={className}>
+            <video width={width}
+                   height={height}
+                   controls
+                   autoPlay={true}
+                   preload="none">
+                <source src={src}
+                        type="video/webm"/>
+                Twoja przeglądarka nie obsługuje formatu video.
+            </video>
+        </div>
+
     )
 }
 

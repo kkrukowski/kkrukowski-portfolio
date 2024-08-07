@@ -90,24 +90,24 @@ export default function Home() {
                            title="Filmowanie z powietrza"
                            href={"/"}
                            linkText="Zobacz więcej"
-                           src="/images/placeholer-video.webp"
-                           alt="Offer video example"
+                           src="/videos/dji-offer-video.webm"
+                           alt="Przykładowy film z drona"
                            reverse={false}
                 />
                 <OfferItem text="Dynamiczne nagrania FPV (First-Person View) idealne do immersyjnych filmów promocyjnych i sportowych. Dzięki nowatorskim ujęciom i dronom wyścigowym, Twoje wideo zyskają unikalność i atrakcyjność. Filmy FPV przyciągną uwagę i zapadną w pamięć."
                            title="Filmowanie FPV"
                            href={"/"}
                            linkText="Zobacz więcej"
-                           src="/images/placeholer-video.webp"
-                           alt="Offer video example"
+                           src="/videos/fpv-offer-video.webm"
+                           alt="Przykładowy film z drona FPV"
                            reverse={true}
                 />
                 <OfferItem text="Tworzę angażujące filmy reklamowe, które wyróżnią Twoją markę. Dbam o każdy detal, aby finalny produkt był spójny z Twoją wizją i celami marketingowymi."
                            title="Montaż filmów promocyjnych"
                            href={"/uslugi"}
                            linkText="Zobacz więcej"
-                           src="/images/placeholer-video.webp"
-                           alt="Offer video example"
+                           src="/videos/promo-offer-video.webm"
+                           alt="Przykładowy film promocyjny"
                            reverse={false}
                 />
             </div>
