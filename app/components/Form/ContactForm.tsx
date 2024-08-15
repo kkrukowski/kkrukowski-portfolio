@@ -57,7 +57,7 @@ const ContactForm: FC = () => {
                     </div>
                     {/* Error message */}
                     <p className={`text-red font-medium pb-4 w-[350px]`}>{error}</p>
-                    <SendButton/>
+                    <SendButton text={"Wyślij zapytanie"}/>
                 </form>
             }
         </div>

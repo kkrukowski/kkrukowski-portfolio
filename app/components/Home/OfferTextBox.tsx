@@ -1,7 +1,7 @@
 import OfferTitle from '@/components/Home/OfferTitle'
 import HrefLink from "@/components/HrefLink";
 
-export default function TextBox({ text, title, href, linkText }) {
+export default function TextBox({ text, title, href, linkText = false }) {
     return (
         <div className={`flex flex-col justify-between rounded-2xl bg-dark p-8 w-full lg:w-[400px] lg:h-[300px] shadow-lg`}>
             <div>
@@ -10,7 +10,7 @@ export default function TextBox({ text, title, href, linkText }) {
                     {text}
                 </p>
             </div>
-            <HrefLink href={href} text={linkText}/>
+            { linkText && <HrefLink href={href} text={linkText}/> }
         </div>
     )
 }

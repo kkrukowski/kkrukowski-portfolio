@@ -18,7 +18,9 @@ export default function Kontakt() {
 
     return (
         <main className="w-screen max-w-[1250px] min-h-screen px-4 sm:px-12 desktop:px-24 pt-[90px] sm:pt-[110px]">
-            <MainSubpageVideo subpageTitle="Kontakt"/>
+            <MainSubpageVideo
+                videoUrl="/videos/contact-video.webm"
+                subpageTitle="Kontakt"/>
             <div className={`mb-[50px]`}>
                 <TextBox width="full"
                          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam elementum quam sem, quis lacinia odio bibendum eget. "/>
