@@ -1,6 +1,7 @@
 import { Roboto_Slab } from "next/font/google";
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 import "./globals.css";
 import Navbar from "./components/nav/Navbar";
@@ -20,6 +21,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <SpeedInsights />
+        <Analytics />
       </body>
       <GoogleAnalytics gaId="G-3477ENCLNQ" />
     </html>
