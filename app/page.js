@@ -88,7 +88,7 @@ export default function Home() {
             <div>
                 <OfferItem text="Profesjonalne filmowanie dronem, które uchwyci wyjątkowe ujęcia Twojego wydarzenia, nieruchomości lub projektu. Gwarantuję najwyższą jakość obrazu i pełne bezpieczeństwo lotu. Dzięki moim usługom dronem, Twoje filmy reklamowe wyróżnią się na tle konkurencji."
                            title="Filmowanie z powietrza"
-                           href={"/"}
+                           href={"/uslugi"}
                            linkText="Zobacz więcej"
                            src="/videos/dji-offer-video.webm"
                            alt="Przykładowy film z drona"
@@ -96,7 +96,7 @@ export default function Home() {
                 />
                 <OfferItem text="Dynamiczne nagrania FPV (First-Person View) idealne do immersyjnych filmów promocyjnych i sportowych. Dzięki nowatorskim ujęciom i dronom wyścigowym, Twoje wideo zyskają unikalność i atrakcyjność. Filmy FPV przyciągną uwagę i zapadną w pamięć."
                            title="Filmowanie FPV"
-                           href={"/"}
+                           href={"/uslugi"}
                            linkText="Zobacz więcej"
                            src="/videos/fpv-offer-video.webm"
                            alt="Przykładowy film z drona FPV"
