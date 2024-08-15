@@ -1,4 +1,6 @@
 import { Roboto_Slab } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 import "./globals.css";
 import Navbar from "./components/nav/Navbar";
 import Footer from "@/components/Footer";
@@ -18,6 +20,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-3477ENCLNQ" />
     </html>
   );
 }
