@@ -1,5 +1,6 @@
 import { Roboto_Slab } from "next/font/google";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css";
 import Navbar from "./components/nav/Navbar";
