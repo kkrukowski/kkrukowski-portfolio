@@ -23,7 +23,7 @@ export default function Kontakt() {
                 subpageTitle="Kontakt"/>
             <div className={`mb-[50px]`}>
                 <TextBox width="full"
-                         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu bibendum magna. Aenean tortor orci, tincidunt ac maximus ac, consectetur eu nunc. Nullam elementum quam sem, quis lacinia odio bibendum eget. "/>
+                         text="Jeśli masz pytania lub chciałbyś omówić szczegóły swojego projektu, zapraszam do kontaktu. Z przyjemnością odpowiem na wszelkie wątpliwości i doradzę najlepsze rozwiązania dla Twoich potrzeb. Wspólnie stworzymy wyjątkowe materiały wideo, które wyróżnią Twoją markę."/>
             </div>
             {/* Contact me section */}
             <ContactSection/>
